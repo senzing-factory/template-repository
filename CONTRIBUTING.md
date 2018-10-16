@@ -82,7 +82,7 @@ These variables may be modified, but do not need to be modified.
 The variables are used throughout the installation procedure.
 
 ```console
-export GIT_ACCOUNT=docktermj
+export GIT_ACCOUNT=senzing
 export GIT_REPOSITORY=senzing-repository-template
 ```
 
