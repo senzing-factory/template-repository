@@ -10,7 +10,7 @@ GitHub provides support for these artifacts.  As an example, click on the follow
 
 Senzing community files:
 
-1. [CODE\_OF\_CONDUCT.md](#code_of_conductmd)
+1. [CODE_OF_CONDUCT.md](#code_of_conductmd)
 1. [CONTRIBUTING.md](#contributingmd)
 1. .github/
     1. [senzing-corporate-contributor-license-agreement.pdf](#githubsenzing-corporate-contributor-license-agreementpdf)
