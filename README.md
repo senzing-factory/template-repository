@@ -15,11 +15,11 @@ Senzing community files:
 1. .github/
     1. [senzing-corporate-contributor-license-agreement.pdf](#githubsenzing-corporate-contributor-license-agreementpdf)
     1. [senzing-individual-contributor-license-agreement.pdf](#githubsenzing-individual-contributor-license-agreementpdf)
-    1. ISSUE\_TEMPLATE/
-        1. [bug\_report.md](#githubissue_templatebug_reportmd)
-        1. [feature\_request.md](#githubissue_templatefeature_requestmd)
+    1. ISSUE_TEMPLATE/
+        1. [bug_report.md](#githubissue_templatebug_reportmd)
+        1. [feature_request.md](#githubissue_templatefeature_requestmd)
 1. [LICENSE](#license)
-1. [PULL\_REQUEST\_TEMPLATE.md](#pull_request_templatemd)
+1. [PULL_REQUEST_TEMPLATE.md](#pull_request_templatemd)
 1. [README.md](#readmemd)
 
 ## README.md
