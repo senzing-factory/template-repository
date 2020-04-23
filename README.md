@@ -17,6 +17,7 @@ Senzing community files:
     1. [senzing-individual-contributor-license-agreement.pdf](#githubsenzing-individual-contributor-license-agreementpdf)
     1. ISSUE_TEMPLATE/
         1. [bug_report.md](#githubissue_templatebug_reportmd)
+        1. [documentation_request.md](#githubissue_templatedocumentation_requestmd)
         1. [feature_request.md](#githubissue_templatefeature_requestmd)
 1. [LICENSE](#license)
 1. [PULL_REQUEST_TEMPLATE.md](#pull_request_templatemd)
@@ -28,8 +29,8 @@ Although the file you are reading is a `README.md` file, this isn't the style of
 Depending upon the type of repository, the following `README.md` templates may be more appropriate:
 
 1. [README.md](.github/README_TEMPLATE/demonstration/README.md) template for demonstrations. Examples:
-    1. [docker-python-demo/README.md](https://github.com/Senzing/docker-python-demo/blob/master/README.md)
-    1. [stream-loader/README.md](https://github.com/Senzing/stream-loader/blob/master/README.md)
+    1. [template-python/README.md](https://github.com/Senzing/template-python/blob/master/README.md)
+    1. [template-docker/README.md](https://github.com/Senzing/template-docker/blob/master/README.md)
 
 ## LICENSE
 
@@ -59,7 +60,7 @@ The `CODE_OF_CONDUCT.md` file describes the social conventions among contributor
 
 The [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) file in this repository is based on GitHub's "[Contributor Covenant](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html)".
 
-### How to create CODE\_OF\_CONDUCT.md
+### How to create CODE_OF_CONDUCT.md
 
 1. Option #1: Using GitHub's "Wizard"
     1. [github.com](https://github.com/) > (choose repository) > Insights > Community > Code of conduct > "Add" button > "Contributor Covenant"
@@ -85,7 +86,7 @@ The [CONTRIBUTING.md](CONTRIBUTING.md) file in this repository is an example tha
 1. Option #2: Manual file creation
     1. See GitHub's [Setting guidelines for repository contributors](https://help.github.com/articles/setting-guidelines-for-repository-contributors/)
 
-## PULL\_REQUEST\_TEMPLATE.md
+## PULL_REQUEST_TEMPLATE.md
 
 The `PULL_REQUEST_TEMPLATE.md` file asks a pull requester for information about the pull request.
 
@@ -96,7 +97,7 @@ The `PULL_REQUEST_TEMPLATE.md` file asks a pull requester for information about 
 The [PULL_REQUEST_TEMPLATE.md](PULL_REQUEST_TEMPLATE.md) file in this repository
 is an example that can be modified.
 
-### How to create PULL\_REQUEST\_TEMPLATE.md
+### How to create PULL_REQUEST_TEMPLATE.md
 
 1. Option #1: Using GitHub's "Wizard"
     1. [github.com](https://github.com/) > (choose repository) > Insights > Community > Pull request template > "Add" button
@@ -132,26 +133,33 @@ must also be submitted and accepted.
 1. *DO NOT* modify the contents of [senzing-individual-contributor-license-agreement.pdf](.github/senzing-individual-contributor-license-agreement.pdf) without legal approval.
 1. Reference `senzing-individual-contributor-license-agreement.pdf` in [CONTRIBUTING.md](#contributingmd)
 
-## .github/ISSUE\_TEMPLATE/bug\_report.md
+## .github/ISSUE_TEMPLATE/bug_report.md
 
 A template presented to the Contributor when creating an issue that reports a bug.
 
 The [bug_report.md](.github/ISSUE_TEMPLATE/bug_report.md) file in this repository
 is an example that can be modified.
 
-### How to create .github/ISSUE\_TEMPLATE/bug\_report.md
+### How to create .github/ISSUE_TEMPLATE/bug_report.md
 
 1. Option #1: Using GitHub's "Wizard"
     1. [github.com](https://github.com/) > (choose repository) > Insights > Community > Issue templates > "Add" button > Add template: Bug report
 
-## .github/ISSUE\_TEMPLATE/feature\_request.md
+## .github/ISSUE_TEMPLATE/documentation_request.md
+
+A template presented to the Contributor when creating an issue that requests change to the documentation.
+
+The [documentation_request.md](.github/ISSUE_TEMPLATE/documentation_request.md) file in this repository
+is an example that can be modified.
+
+## .github/ISSUE_TEMPLATE/feature_request.md
 
 A template presented to the Contributor when creating an issue that requests a feature.
 
 The [feature_request.md](.github/ISSUE_TEMPLATE/feature_request.md) file in this repository
 is an example that can be modified.
 
-### How to create .github/ISSUE\_TEMPLATE/feature\_request.md
+### How to create .github/ISSUE_TEMPLATE/feature_request.md
 
 1. Option #1: Using GitHub's "Wizard"
     1. [github.com](https://github.com/) > (choose repository) > Insights > Community > Issue templates > "Add" button > Add template: Feature request
