@@ -49,7 +49,7 @@ The [LICENSE](LICENSE) file in this repository is based on
 1. Option #2: Manual file creation
     1. See GitHub's [Adding a license to a repository](https://help.github.com/articles/adding-a-license-to-a-repository/)
 
-## CODE\_OF\_CONDUCT.md
+## CODE_OF_CONDUCT.md
 
 The `CODE_OF_CONDUCT.md` file describes the social conventions among contributors to the repository.
 
