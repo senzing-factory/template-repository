@@ -13,27 +13,44 @@ This demonstration shows...
 1. [Preamble](#preamble)
     1. [Legend](#legend)
 1. [Related artifacts](#related-artifacts)
-1. [Expectations](#expectations)
-1. [Demonstrate using Command Line Interface](#demonstrate-using-command-line-interface)
-    1. [Prerequisites for CLI](#prerequisites-for-cli)
-    1. [Download](#download)
-    1. [Environment variables for CLI](#environment-variables-for-cli)
-    1. [Run command](#run-command)
-1. [Demonstrate using Docker](#demonstrate-using-docker)
-    1. [Prerequisites for Docker](#prerequisites-for-docker)
-    1. [Docker volumes](#docker-volumes)
-    1. [Docker network](#docker-network)
-    1. [Docker user](#docker-user)
-    1. [Database support](#database-support)
-    1. [External database](#external-database)
-    1. [Run Docker container](#run-docker-container)
+1. [Demonstrate](#demonstrate)
+    1. [Demonstrate using Command Line Interface](#demonstrate-using-command-line-interface)
+        1. [Expectations for CLI](#expectations-for-cli)
+        1. [Prerequisites for CLI](#prerequisites-for-cli)
+        1. [Download](#download)
+        1. [Environment variables for CLI](#environment-variables-for-cli)
+        1. [Run command](#run-command)
+    1. [Demonstrate using Docker](#demonstrate-using-docker)
+        1. [Expectations for Docker(#expectations-for-docker)
+        1. [Prerequisites for Docker](#prerequisites-for-docker)
+        1. [Docker volumes](#docker-volumes)
+        1. [Docker network](#docker-network)
+        1. [Docker user](#docker-user)
+        1. [Database support](#database-support)
+        1. [External database](#external-database)
+        1. [Run Docker container](#run-docker-container)
+    1. [Demonstrate using Kubernetes](#demonstrate-using-kubernetes)
+        1. [Expectations for Kubernetes](#expectations-for-kubernetes)
+        1. [Prerequisites for Kubernetes](#prerequisites-for-kubernetes)
+    1. [Demonstrate using AWS ECS](#demonstrate-using-aws-ecs)
+        1. [Expectations for AWS ECS](#expectations-for-aws-ecs)
+        1. [Prerequisites for AWS ECS](#prerequisites-for-aws-ecs)
+    1. [Demonstrate using OpenShift](#demonstrate-using-openshift)
+        1. [Expectations for OpenShift](#expectations-for-openshift)
+        1. [Prerequisites for OpenShift](#prerequisites-for-openshift)
+1. [Specifications](#specifications)
+    1. [Ports used](#ports-used)
+1. [Examples](#examples)
+    1. [Examples of CLI](#examples-of-cli)
+    1. [Examples of Docker](#examples-of-docker)
+    1. [Examples of Kubernetes](#examples-of-kubernetes)
+    1. [Examples of AWS ECS](#examples-of-aws-ecs)
+    1. [Examples of OpenShift](#examples-of-openshift)
 1. [Develop](#develop)
     1. [Prerequisites for development](#prerequisites-for-development)
     1. [Clone repository](#clone-repository)
     1. [Build Docker image](#build-docker-image)
-1. [Examples](#examples)
-    1. [Examples of CLI](#examples-of-cli)
-    1. [Examples of Docker](#examples-of-docker)
+    1. [Update Helm Charts](#update-helm-charts)
 1. [Advanced](#advanced)
     1. [Configuration](#configuration)
 1. [Errors](#errors)
@@ -61,46 +78,84 @@ describing where we can improve.   Now on with the show...
 
 ## Related artifacts
 
-## Expectations
+## Demonstrate
 
-- **Space:** This repository and demonstration require 6 GB free disk space.
-- **Time:** Budget 40 minutes to get the demonstration up-and-running, depending on CPU and network speeds.
+### Demonstrate using Command Line Interface
+
+#### Expectations for CLI
+
+- **Space:** This repository and demonstration require NN GB free disk space.
+- **Time:** Budget NN minutes to get the demonstration up-and-running, depending on CPU and network speeds.
 - **Background knowledge:** This repository assumes a working knowledge of:
-  - [Docker](https://github.com/Senzing/knowledge-base/blob/master/WHATIS/docker.md)
+  - [XXX](https://github.com/Senzing/knowledge-base/blob/master/WHATIS/XXX.md)
 
-## Demonstrate using Command Line Interface
+#### Prerequisites for CLI
 
-### Prerequisites for CLI
+#### Download
 
-### Download
+#### Environment variables for CLI
 
-### Environment variables for CLI
+#### Run command
 
-### Run command
+### Demonstrate using Docker
 
-## Demonstrate using Docker
+#### Expectations for Docker
 
-### Prerequisites for Docker
+- **Space:** This repository and demonstration require NN GB free disk space.
+- **Time:** Budget NN minutes to get the demonstration up-and-running, depending on CPU and network speeds.
+- **Background knowledge:** This repository assumes a working knowledge of:
+  - [XXX](https://github.com/Senzing/knowledge-base/blob/master/WHATIS/XXX.md)
 
-### Docker volumes
+#### Prerequisites for Docker
 
-### Docker network
+#### Docker volumes
 
-### Docker user
+#### Docker network
 
-### Database support
+#### Docker user
 
-### External database
+#### Database support
 
-### Run Docker container
+#### External database
 
-## Develop
+#### Run Docker container
 
-### Prerequisites for development
+### Demonstrate using Kubernetes
 
-### Clone repository
+#### Expectations for Kubernetes
 
-### Build Docker image
+- **Space:** This repository and demonstration require NN GB free disk space.
+- **Time:** Budget NN minutes to get the demonstration up-and-running, depending on CPU and network speeds.
+- **Background knowledge:** This repository assumes a working knowledge of:
+  - [XXX](https://github.com/Senzing/knowledge-base/blob/master/WHATIS/XXX.md)
+
+#### Prerequisites for Kubernetes
+
+### Demonstrate using AWS ECS
+
+#### Expectations for AWS ECS
+
+- **Space:** This repository and demonstration require NN GB free disk space.
+- **Time:** Budget NN minutes to get the demonstration up-and-running, depending on CPU and network speeds.
+- **Background knowledge:** This repository assumes a working knowledge of:
+  - [XXX](https://github.com/Senzing/knowledge-base/blob/master/WHATIS/XXX.md)
+
+#### Prerequisites for AWS ECS
+
+### Demonstrate using OpenShift
+
+#### Expectations for OpenShift
+
+- **Space:** This repository and demonstration require NN GB free disk space.
+- **Time:** Budget NN minutes to get the demonstration up-and-running, depending on CPU and network speeds.
+- **Background knowledge:** This repository assumes a working knowledge of:
+  - [XXX](https://github.com/Senzing/knowledge-base/blob/master/WHATIS/XXX.md)
+
+#### Prerequisites for OpenShift
+
+## Specifications
+
+### Ports used
 
 ## Examples
 
@@ -113,6 +168,31 @@ The following examples require initialization described in
 
 The following examples require initialization described in
 [Demonstrate using Docker](#demonstrate-using-docker).
+
+### Examples of Kubernetes
+
+The following examples require initialization described in
+[Demonstrate using Kubernetes](#demonstrate-using-kubernetes).
+
+### Examples of AWS ECS
+
+The following examples require initialization described in
+[Demonstrate using AWS ECS](#demonstrate-using-aws-ecs).
+
+### Examples of OpenShift
+
+The following examples require initialization described in
+[Demonstrate using OpenShift](#demonstrate-using-openshift).
+
+## Develop
+
+### Prerequisites for development
+
+### Clone repository
+
+### Build Docker image
+
+### Update Helm Charts
 
 ## Advanced
 
