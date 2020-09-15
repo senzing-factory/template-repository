@@ -21,7 +21,7 @@ This demonstration shows...
         1. [Environment variables for CLI](#environment-variables-for-cli)
         1. [Run command](#run-command)
     1. [Demonstrate using Docker](#demonstrate-using-docker)
-        1. [Expectations for Docker(#expectations-for-docker)
+        1. [Expectations for Docker](#expectations-for-docker)
         1. [Prerequisites for Docker](#prerequisites-for-docker)
         1. [Docker volumes](#docker-volumes)
         1. [Docker network](#docker-network)
