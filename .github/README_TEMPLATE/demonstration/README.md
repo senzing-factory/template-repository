@@ -53,6 +53,7 @@ This demonstration shows...
     1. [Update Helm Charts](#update-helm-charts)
 1. [Advanced](#advanced)
     1. [Configuration](#configuration)
+1. [Troubleshooting](#troubleshooting)
 1. [Errors](#errors)
 1. [References](#references)
 
@@ -197,6 +198,8 @@ The following examples require initialization described in
 ## Advanced
 
 ### Configuration
+
+## Troubleshooting
 
 ## Errors
 
