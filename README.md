@@ -29,8 +29,8 @@ Although the file you are reading is a `README.md` file, this isn't the style of
 Depending upon the type of repository, the following `README.md` templates may be more appropriate:
 
 1. [README.md](.github/README_TEMPLATE/demonstration/README.md) template for demonstrations. Examples:
-    1. [template-python/README.md](https://github.com/Senzing/template-python/blob/master/README.md)
-    1. [template-docker/README.md](https://github.com/Senzing/template-docker/blob/master/README.md)
+    1. [template-python/README.md](https://github.com/Senzing/template-python/blob/main/README.md)
+    1. [template-docker/README.md](https://github.com/Senzing/template-docker/blob/main/README.md)
 
 ## LICENSE
 
