@@ -106,7 +106,15 @@ Example:
 
 ## .github/CODEOWNERS
 
+The `CODEOWNERS` file implements GitHub's
+[code owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners).
+The teams that may appear in a `CODEOWNERS` file can be seen at
+[github.com/orgs/Senzing/teams](https://github.com/orgs/Senzing/teams).
+
 ## .github/dependabot.yml
+
+The `dependabot.yml` file is configuration for
+[GitHub's dependabot](https://docs.github.com/en/code-security/dependabot).
 
 ## .github/ISSUE_TEMPLATE/bug_report.md
 
