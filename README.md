@@ -112,7 +112,9 @@ https://hub.senzing.com/<repository-name>
 Example:
 [hub.senzing.com/sdk-components-ng](https://hub.senzing.com/sdk-components-ng/)
 
-## .github/CODEOWNERS
+## .github
+
+### .github/CODEOWNERS
 
 The
 [CODEOWNERS](.github/CODEOWNERS)
@@ -121,57 +123,59 @@ file implements GitHub's
 The teams that may appear in a `CODEOWNERS` file can be seen at
 [github.com/orgs/Senzing/teams](https://github.com/orgs/Senzing/teams).
 
-## .github/dependabot.yml
+### .github/dependabot.yml
 
 The
 [dependabot.yml](.github/dependabot.yml) file is configuration for
 [GitHub's dependabot](https://docs.github.com/en/code-security/dependabot).
 
-## .github/ISSUE_TEMPLATE/bug_report.md
+### .github/ISSUE_TEMPLATE
+
+#### .github/ISSUE_TEMPLATE/bug_report.md
 
 A template presented to the Contributor when creating an issue that reports a bug.
 
 The [bug_report.md](.github/ISSUE_TEMPLATE/bug_report.md) file in this repository
 is an example that can be modified.
 
-### How to create .github/ISSUE_TEMPLATE/bug_report.md
+##### How to create .github/ISSUE_TEMPLATE/bug_report.md
 
 1. Option #1: Using GitHub's "Wizard"
     1. [github.com](https://github.com/) > (choose repository) > Insights > Community > Issue templates > "Add" button > Add template: Bug report
 
-## .github/ISSUE_TEMPLATE/documentation_request.md
+#### .github/ISSUE_TEMPLATE/documentation_request.md
 
 A template presented to the Contributor when creating an issue that requests change to the documentation.
 
 The [documentation_request.md](.github/ISSUE_TEMPLATE/documentation_request.md) file in this repository
 is an example that can be modified.
 
-## .github/ISSUE_TEMPLATE/feature_request.md
+#### .github/ISSUE_TEMPLATE/feature_request.md
 
 A template presented to the Contributor when creating an issue that requests a feature.
 
 The [feature_request.md](.github/ISSUE_TEMPLATE/feature_request.md) file in this repository
 is an example that can be modified.
 
-### How to create .github/ISSUE_TEMPLATE/feature_request.md
+##### How to create .github/ISSUE_TEMPLATE/feature_request.md
 
 1. Option #1: Using GitHub's "Wizard"
     1. [github.com](https://github.com/) > (choose repository) > Insights > Community > Issue templates > "Add" button > Add template: Feature request
 
-## .github/senzing-corporate-contributor-license-agreement.pdf
+### .github/senzing-corporate-contributor-license-agreement.pdf
 
 The Senzing, INC. Software Grant and Corporate Contributor License Agreement (CCLA),
 [corporate-contributor-license-agreement.pdf](.github/senzing-corporate-contributor-license-agreement.pdf),
 is the standard agreement for a corporation's contribution to a Senzing repository.
 
-### How to create .github/senzing-corporate-contributor-license-agreement.pdf
+#### How to create .github/senzing-corporate-contributor-license-agreement.pdf
 
 1. Make a `.github` directory in the repository
 1. Copy [senzing-corporate-contributor-license-agreement.pdf](.github/senzing-corporate-contributor-license-agreement.pdf) into the new `.github` directory
 1. *DO NOT* modify the contents of [senzing-corporate-contributor-license-agreement.pdf](.github/senzing-corporate-contributor-license-agreement.pdf) without legal approval.
 1. Reference `senzing-corporate-contributor-license-agreement.pdf` in [CONTRIBUTING.md](#contributingmd)
 
-## .github/senzing-individual-contributor-license-agreement.pdf
+### .github/senzing-individual-contributor-license-agreement.pdf
 
 The Individual Contributor License Agreement (ICLA),
 [senzing-individual-contributor-license-agreement.pdf](.github/senzing-individual-contributor-license-agreement.pdf),
@@ -180,14 +184,16 @@ is the standard agreement for an individual's contribution to a Senzing reposito
 [senzing-corporate-contributor-license-agreement.pdf](#githubsenzing-corporate-contributor-license-agreementpdf)
 must also be submitted and accepted.
 
-### How to create .github/senzing-individual-contributor-license-agreement.pdf
+#### How to create .github/senzing-individual-contributor-license-agreement.pdf
 
 1. Make a `.github` directory in the repository
 1. Copy [senzing-individual-contributor-license-agreement.pdf](.github/senzing-individual-contributor-license-agreement.pdf) into the new `.github` directory
 1. *DO NOT* modify the contents of [senzing-individual-contributor-license-agreement.pdf](.github/senzing-individual-contributor-license-agreement.pdf) without legal approval.
 1. Reference `senzing-individual-contributor-license-agreement.pdf` in [CONTRIBUTING.md](#contributingmd)
 
-## .github/workflows/add-dependabot-request-to-project
+### .github/workflows
+
+#### .github/workflows/add-dependabot-request-to-project
 
 There are a number of
 [add-dependabot-request-to-project-*](.github/workflows/)
@@ -204,7 +210,7 @@ Each variant corresponds to a different Projects board.
 - **t-g2-python:** <https://github.com/orgs/Senzing/projects/8>
 - **t-gdev:** <https://github.com/orgs/Senzing/projects/9>
 
-## .github/workflows/add-issue-to-project
+#### .github/workflows/add-issue-to-project
 
 There are a number of
 [add-issue-to-project-*](.github/workflows/)
@@ -220,7 +226,7 @@ Each variant corresponds to a different Projects board.
 - **t-g2-python:** <https://github.com/orgs/Senzing/projects/8>
 - **t-gdev:** <https://github.com/orgs/Senzing/projects/9>
 
-## .github/workflows/add-triage-label.yaml
+#### .github/workflows/add-triage-label.yaml
 
 The
 [add-triage-label.yaml](.github/workflows/add-triage-label.yaml)
@@ -228,7 +234,7 @@ file is a
 [GitHub Action](https://docs.github.com/en/actions)
 that adds a `triage` label to every new issue.
 
-## .github/workflows/identify-customer.yaml
+#### .github/workflows/identify-customer.yaml
 
 The
 [identify-customer.yaml](.github/workflows/identify-customer.yaml)
