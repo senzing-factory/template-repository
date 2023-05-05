@@ -10,15 +10,24 @@ GitHub provides support for these artifacts.  As an example, click on the follow
 
 Senzing community files:
 
+1. [CHANGELOG.md](#changelogmd)
 1. [CODE_OF_CONDUCT.md](#code_of_conductmd)
 1. [CONTRIBUTING.md](#contributingmd)
+1. docs/
 1. .github/
-    1. [senzing-corporate-contributor-license-agreement.pdf](#githubsenzing-corporate-contributor-license-agreementpdf)
-    1. [senzing-individual-contributor-license-agreement.pdf](#githubsenzing-individual-contributor-license-agreementpdf)
+    1. [CODEOWNERS](#codeowners)
+    1. [dependabot.yml](#dependabotyml)
     1. ISSUE_TEMPLATE/
         1. [bug_report.md](#githubissue_templatebug_reportmd)
         1. [documentation_request.md](#githubissue_templatedocumentation_requestmd)
         1. [feature_request.md](#githubissue_templatefeature_requestmd)
+    1. [senzing-corporate-contributor-license-agreement.pdf](#githubsenzing-corporate-contributor-license-agreementpdf)
+    1. [senzing-individual-contributor-license-agreement.pdf](#githubsenzing-individual-contributor-license-agreementpdf)
+    1. workflows/
+        1. [add-dependabot-request-to-project](#add-dependabot-request-to-project)
+        1. [add-issue-to-project](#add-issue-to-project)
+        1. [add-triage-label.yaml](#add-triage-label)
+        1. [identify-customer.yaml](#identify-customeryaml)
 1. [LICENSE](#license)
 1. [PULL_REQUEST_TEMPLATE.md](#pull_request_templatemd)
 1. [README.md](#readmemd)
@@ -29,8 +38,9 @@ Although the file you are reading is a `README.md` file, this isn't the style of
 Depending upon the type of repository, the following `README.md` templates may be more appropriate:
 
 1. [README.md](.github/README_TEMPLATE/demonstration/README.md) template for demonstrations. Examples:
-    1. [template-python/README.md](https://github.com/Senzing/template-python/blob/main/README.md)
     1. [template-docker/README.md](https://github.com/Senzing/template-docker/blob/main/README.md)
+    1. [template-go/README.md](https://github.com/Senzing/template-go/blob/main/README.md)
+    1. [template-python/README.md](https://github.com/Senzing/template-python/blob/main/README.md)
 
 ## LICENSE
 
@@ -49,6 +59,10 @@ The [LICENSE](LICENSE) file in this repository is based on
     1. When [creating a new repository](https://github.com/new), in the "Add a license:" drop-down, choose "Apache License 2.0"
 1. Option #2: Manual file creation
     1. See GitHub's [Adding a license to a repository](https://help.github.com/articles/adding-a-license-to-a-repository/)
+
+## CHANGELOG.md
+
+## CODEOWNERS
 
 ## CODE_OF_CONDUCT.md
 
