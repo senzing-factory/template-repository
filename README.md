@@ -13,7 +13,7 @@ Senzing community files:
 1. [CHANGELOG.md](#changelogmd)
 1. [CODE_OF_CONDUCT.md](#code_of_conductmd)
 1. [CONTRIBUTING.md](#contributingmd)
-1. docs/
+1. [docs/](#docs)
 1. .github/
     1. [CODEOWNERS](#codeowners)
     1. [dependabot.yml](#dependabotyml)
@@ -41,24 +41,6 @@ Depending upon the type of repository, the following `README.md` templates may b
     1. [template-docker/README.md](https://github.com/Senzing/template-docker/blob/main/README.md)
     1. [template-go/README.md](https://github.com/Senzing/template-go/blob/main/README.md)
     1. [template-python/README.md](https://github.com/Senzing/template-python/blob/main/README.md)
-
-## LICENSE
-
-The `LICENSE` file describes the terms and conditions under which the code in the repository can be used.
-The recommended license file is
-"[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html)".
-A comparison of licenses can be found at
-[choosealicense.com](https://choosealicense.com/licenses/).
-
-The [LICENSE](LICENSE) file in this repository is based on
-"[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html)".
-
-### How to create LICENSE
-
-1. Option #1: Using GitHub's "Wizard"
-    1. When [creating a new repository](https://github.com/new), in the "Add a license:" drop-down, choose "Apache License 2.0"
-1. Option #2: Manual file creation
-    1. See GitHub's [Adding a license to a repository](https://help.github.com/articles/adding-a-license-to-a-repository/)
 
 ## CHANGELOG.md
 
@@ -100,52 +82,11 @@ The [CONTRIBUTING.md](CONTRIBUTING.md) file in this repository is an example tha
 1. Option #2: Manual file creation
     1. See GitHub's [Setting guidelines for repository contributors](https://help.github.com/articles/setting-guidelines-for-repository-contributors/)
 
-## PULL_REQUEST_TEMPLATE.md
+## docs
 
-The `PULL_REQUEST_TEMPLATE.md` file asks a pull requester for information about the pull request.
+## .github/CODEOWNERS
 
-> When you add a pull request template to your repository, project contributors will automatically see the template's contents in the pull request body.
->
-> -- <cite>GitHub's [Creating a pull request template for your repository](https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/)</cite>
-
-The [PULL_REQUEST_TEMPLATE.md](PULL_REQUEST_TEMPLATE.md) file in this repository
-is an example that can be modified.
-
-### How to create PULL_REQUEST_TEMPLATE.md
-
-1. Option #1: Using GitHub's "Wizard"
-    1. [github.com](https://github.com/) > (choose repository) > Insights > Community > Pull request template > "Add" button
-1. Option #2: Manual file creation
-    1. See GitHub's [Creating a pull request template for your repository](https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/)
-
-## .github/senzing-corporate-contributor-license-agreement.pdf
-
-The Senzing, INC. Software Grant and Corporate Contributor License Agreement (CCLA),
-[corporate-contributor-license-agreement.pdf](.github/senzing-corporate-contributor-license-agreement.pdf),
-is the standard agreement for a corporation's contribution to a Senzing repository.
-
-### How to create .github/senzing-corporate-contributor-license-agreement.pdf
-
-1. Make a `.github` directory in the repository
-1. Copy [senzing-corporate-contributor-license-agreement.pdf](.github/senzing-corporate-contributor-license-agreement.pdf) into the new `.github` directory
-1. *DO NOT* modify the contents of [senzing-corporate-contributor-license-agreement.pdf](.github/senzing-corporate-contributor-license-agreement.pdf) without legal approval.
-1. Reference `senzing-corporate-contributor-license-agreement.pdf` in [CONTRIBUTING.md](#contributingmd)
-
-## .github/senzing-individual-contributor-license-agreement.pdf
-
-The Individual Contributor License Agreement (ICLA),
-[senzing-individual-contributor-license-agreement.pdf](.github/senzing-individual-contributor-license-agreement.pdf),
-is the standard agreement for an individual's contribution to a Senzing repository.
-*Note:* if an individual is contributing on behalf of a company, the
-[senzing-corporate-contributor-license-agreement.pdf](#githubsenzing-corporate-contributor-license-agreementpdf)
-must also be submitted and accepted.
-
-### How to create .github/senzing-individual-contributor-license-agreement.pdf
-
-1. Make a `.github` directory in the repository
-1. Copy [senzing-individual-contributor-license-agreement.pdf](.github/senzing-individual-contributor-license-agreement.pdf) into the new `.github` directory
-1. *DO NOT* modify the contents of [senzing-individual-contributor-license-agreement.pdf](.github/senzing-individual-contributor-license-agreement.pdf) without legal approval.
-1. Reference `senzing-individual-contributor-license-agreement.pdf` in [CONTRIBUTING.md](#contributingmd)
+## .github/dependabot.yml
 
 ## .github/ISSUE_TEMPLATE/bug_report.md
 
@@ -177,3 +118,76 @@ is an example that can be modified.
 
 1. Option #1: Using GitHub's "Wizard"
     1. [github.com](https://github.com/) > (choose repository) > Insights > Community > Issue templates > "Add" button > Add template: Feature request
+
+## .github/senzing-corporate-contributor-license-agreement.pdf
+
+The Senzing, INC. Software Grant and Corporate Contributor License Agreement (CCLA),
+[corporate-contributor-license-agreement.pdf](.github/senzing-corporate-contributor-license-agreement.pdf),
+is the standard agreement for a corporation's contribution to a Senzing repository.
+
+### How to create .github/senzing-corporate-contributor-license-agreement.pdf
+
+1. Make a `.github` directory in the repository
+1. Copy [senzing-corporate-contributor-license-agreement.pdf](.github/senzing-corporate-contributor-license-agreement.pdf) into the new `.github` directory
+1. *DO NOT* modify the contents of [senzing-corporate-contributor-license-agreement.pdf](.github/senzing-corporate-contributor-license-agreement.pdf) without legal approval.
+1. Reference `senzing-corporate-contributor-license-agreement.pdf` in [CONTRIBUTING.md](#contributingmd)
+
+## .github/senzing-individual-contributor-license-agreement.pdf
+
+The Individual Contributor License Agreement (ICLA),
+[senzing-individual-contributor-license-agreement.pdf](.github/senzing-individual-contributor-license-agreement.pdf),
+is the standard agreement for an individual's contribution to a Senzing repository.
+*Note:* if an individual is contributing on behalf of a company, the
+[senzing-corporate-contributor-license-agreement.pdf](#githubsenzing-corporate-contributor-license-agreementpdf)
+must also be submitted and accepted.
+
+### How to create .github/senzing-individual-contributor-license-agreement.pdf
+
+1. Make a `.github` directory in the repository
+1. Copy [senzing-individual-contributor-license-agreement.pdf](.github/senzing-individual-contributor-license-agreement.pdf) into the new `.github` directory
+1. *DO NOT* modify the contents of [senzing-individual-contributor-license-agreement.pdf](.github/senzing-individual-contributor-license-agreement.pdf) without legal approval.
+1. Reference `senzing-individual-contributor-license-agreement.pdf` in [CONTRIBUTING.md](#contributingmd)
+
+## .github/workflows/add-dependabot-request-to-project
+
+## .github/workflows/add-issue-to-project
+
+## .github/workflows/add-triage-label.yaml
+
+## .github/workflows/identify-customer.yaml
+
+## LICENSE
+
+The `LICENSE` file describes the terms and conditions under which the code in the repository can be used.
+The recommended license file is
+"[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html)".
+A comparison of licenses can be found at
+[choosealicense.com](https://choosealicense.com/licenses/).
+
+The [LICENSE](LICENSE) file in this repository is based on
+"[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html)".
+
+### How to create LICENSE
+
+1. Option #1: Using GitHub's "Wizard"
+    1. When [creating a new repository](https://github.com/new), in the "Add a license:" drop-down, choose "Apache License 2.0"
+1. Option #2: Manual file creation
+    1. See GitHub's [Adding a license to a repository](https://help.github.com/articles/adding-a-license-to-a-repository/)
+
+## PULL_REQUEST_TEMPLATE.md
+
+The `PULL_REQUEST_TEMPLATE.md` file asks a pull requester for information about the pull request.
+
+> When you add a pull request template to your repository, project contributors will automatically see the template's contents in the pull request body.
+>
+> -- <cite>GitHub's [Creating a pull request template for your repository](https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/)</cite>
+
+The [PULL_REQUEST_TEMPLATE.md](PULL_REQUEST_TEMPLATE.md) file in this repository
+is an example that can be modified.
+
+### How to create PULL_REQUEST_TEMPLATE.md
+
+1. Option #1: Using GitHub's "Wizard"
+    1. [github.com](https://github.com/) > (choose repository) > Insights > Community > Pull request template > "Add" button
+1. Option #2: Manual file creation
+    1. See GitHub's [Creating a pull request template for your repository](https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/)
