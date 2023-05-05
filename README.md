@@ -49,7 +49,7 @@ As such, they need to know what changes affect them as users.
 In general, changes that do not effect users should not be captured in CHANGELOG.md.
 For this reason, automatic generation of CHANGELOG.md entries is discouraged.
 
-The format pf `CHANGELOG.md` is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+The format of `CHANGELOG.md` is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 [markdownlint](https://dlaa.me/markdownlint/).
 Also, projects adhere to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
@@ -90,6 +90,19 @@ The [CONTRIBUTING.md](CONTRIBUTING.md) file in this repository is an example tha
     1. See GitHub's [Setting guidelines for repository contributors](https://help.github.com/articles/setting-guidelines-for-repository-contributors/)
 
 ## docs
+
+The `docs/` subdirectory may be published as
+[GitHub Pages](https://pages.github.com/).
+They become visible at
+[hub.senzing.com/](https://hub.senzing.com/).
+URLs have the format:
+
+```console
+https://hub.senzing.com/<repository-name>
+```
+
+Example:
+[hub.senzing.com/sdk-components-ng](https://hub.senzing.com/sdk-components-ng/)
 
 ## .github/CODEOWNERS
 
