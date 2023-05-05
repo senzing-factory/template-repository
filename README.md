@@ -94,7 +94,7 @@ The [CONTRIBUTING.md](CONTRIBUTING.md) file in this repository is an example tha
 The `docs/` subdirectory may be published as
 [GitHub Pages](https://pages.github.com/).
 They become visible at
-[hub.senzing.com/](https://hub.senzing.com/).
+[hub.senzing.com](https://hub.senzing.com/).
 URLs have the format:
 
 ```console
