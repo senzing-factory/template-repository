@@ -189,11 +189,52 @@ must also be submitted and accepted.
 
 ## .github/workflows/add-dependabot-request-to-project
 
+There are a number of
+[add-dependabot-request-to-project-*](.github/workflows/)
+files.
+These
+[GitHub Actions](https://docs.github.com/en/actions)
+inspect Dependabot Pull Request to determine which
+project board they should be assigned to.
+
+Each variant corresponds to a different Projects board.
+
+- **t-ast:** <https://github.com/orgs/Senzing/projects/6>
+- **t-comm:** <https://github.com/orgs/Senzing/projects/2>
+- **t-g2-python:** <https://github.com/orgs/Senzing/projects/8>
+- **t-gdev:** <https://github.com/orgs/Senzing/projects/9>
+
 ## .github/workflows/add-issue-to-project
+
+There are a number of
+[add-issue-to-project-*](.github/workflows/)
+files.
+These
+[GitHub Actions](https://docs.github.com/en/actions)
+inspect issues to determine which project board they should be assigned to.
+
+Each variant corresponds to a different Projects board.
+
+- **t-ast:** <https://github.com/orgs/Senzing/projects/6>
+- **t-comm:** <https://github.com/orgs/Senzing/projects/2>
+- **t-g2-python:** <https://github.com/orgs/Senzing/projects/8>
+- **t-gdev:** <https://github.com/orgs/Senzing/projects/9>
 
 ## .github/workflows/add-triage-label.yaml
 
+The
+[add-triage-label.yaml](.github/workflows/add-triage-label.yaml)
+file is a
+[GitHub Action](https://docs.github.com/en/actions)
+that adds a `triage` label to every new issue.
+
 ## .github/workflows/identify-customer.yaml
+
+The
+[identify-customer.yaml](.github/workflows/identify-customer.yaml)
+file is a
+[GitHub Action](https://docs.github.com/en/actions)
+that determines if the issue created by a GitHub user that is not a member of Senzing.
 
 ## LICENSE
 
