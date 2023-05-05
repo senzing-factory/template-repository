@@ -44,6 +44,15 @@ Depending upon the type of repository, the following `README.md` templates may b
 
 ## CHANGELOG.md
 
+The contents of `CHANGELOG.md` are meant to be consumed by users of the repository.
+As such, they need to know what changes affect them as users.
+In general, changes that do not effect users should not be captured in CHANGELOG.md.
+For this reason, automatic generation of CHANGELOG.md entries is discouraged.
+
+The format pf `CHANGELOG.md` is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+[markdownlint](https://dlaa.me/markdownlint/).
+Also, projects adhere to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
 ## CODE_OF_CONDUCT.md
 
 The `CODE_OF_CONDUCT.md` file describes the social conventions among contributors to the repository.
