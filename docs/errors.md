@@ -1,1 +1,1 @@
-## Errors
+# template-repository errors

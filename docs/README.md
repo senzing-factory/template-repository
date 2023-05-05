@@ -2,4 +2,4 @@
 
 Placeholder for [GitHub pages](https://pages.github.com/).
 
-See [https://senzing.github.io/template-repository](https://senzing.github.io/template-repository).
+See [https://hub.senzing.com/template-repository](https://hub.senzing.com/template-repository).
