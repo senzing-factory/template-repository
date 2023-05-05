@@ -16,7 +16,7 @@ Senzing community files:
 1. [docs/](#docs)
 1. .github/
     1. [CODEOWNERS](#codeowners)
-    1. [dependabot.yml](#dependabotyml)
+    1. [dependabot.yml](#githubdependabotyml)
     1. ISSUE_TEMPLATE/
         1. [bug_report.md](#githubissue_templatebug_reportmd)
         1. [documentation_request.md](#githubissue_templatedocumentation_requestmd)
@@ -24,10 +24,10 @@ Senzing community files:
     1. [senzing-corporate-contributor-license-agreement.pdf](#githubsenzing-corporate-contributor-license-agreementpdf)
     1. [senzing-individual-contributor-license-agreement.pdf](#githubsenzing-individual-contributor-license-agreementpdf)
     1. workflows/
-        1. [add-dependabot-request-to-project](#add-dependabot-request-to-project)
-        1. [add-issue-to-project](#add-issue-to-project)
-        1. [add-triage-label.yaml](#add-triage-label)
-        1. [identify-customer.yaml](#identify-customeryaml)
+        1. [add-dependabot-request-to-project](githubworkflowsadd-dependabot-request-to-project)
+        1. [add-issue-to-project](#githubworkflowsadd-issue-to-project)
+        1. [add-triage-label.yaml](#githubworkflowsadd-triage-labelyaml)
+        1. [identify-customer.yaml](#githubworkflowsidentify-customeryaml)
 1. [LICENSE](#license)
 1. [PULL_REQUEST_TEMPLATE.md](#pull_request_templatemd)
 1. [README.md](#readmemd)
