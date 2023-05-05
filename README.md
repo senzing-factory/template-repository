@@ -15,7 +15,7 @@ Senzing community files:
 1. [CONTRIBUTING.md](#contributingmd)
 1. [docs/](#docs)
 1. .github/
-    1. [CODEOWNERS](#codeowners)
+    1. [CODEOWNERS](#githubcodeowners)
     1. [dependabot.yml](#githubdependabotyml)
     1. ISSUE_TEMPLATE/
         1. [bug_report.md](#githubissue_templatebug_reportmd)
@@ -43,8 +43,6 @@ Depending upon the type of repository, the following `README.md` templates may b
     1. [template-python/README.md](https://github.com/Senzing/template-python/blob/main/README.md)
 
 ## CHANGELOG.md
-
-## CODEOWNERS
 
 ## CODE_OF_CONDUCT.md
 
