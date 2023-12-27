@@ -9,7 +9,7 @@ jobs:
     name: Add triage label to issue
     runs-on: ubuntu-latest
     steps:
-      - name: initial labeling
+      - name: Add triage label
         uses: andymckay/labeler@1.0.4
         with:
           add-labels: "triage"

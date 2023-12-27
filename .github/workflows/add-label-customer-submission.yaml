@@ -8,10 +8,10 @@ env:
   CREATOR: ${{ github.actor }}
 jobs:
   automate-issues-labels:
-    name: Add customer-submission label
+    name: Add customer-submission label to issue
     runs-on: ubuntu-latest
     steps:
-      - name: initial labeling
+      - name: Add customer-submission label
         env:
           BOOL: ${{ contains( env.MEMBER_LIST, env.CREATOR ) }}
         if: ${{ env.BOOL == 'false' }}
