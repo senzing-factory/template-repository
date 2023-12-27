@@ -4,7 +4,7 @@ This repository contains exemplar artifacts (files) for Senzing repositories.
 
 GitHub provides support for these artifacts.  As an example, click on the following links on this GitHub repository:
 
-- "Insights" tab > "[Community](https://github.com/senzing/template-repository/community)" on left-hand navigation bar
+- "Insights" tab > "[Community](https://github.com/senzing-factory/template-repository/community)" on left-hand navigation bar
 
 ## Files
 
@@ -17,19 +17,10 @@ Senzing community files:
 1. .github/
     1. [CODEOWNERS](#githubcodeowners)
     1. [dependabot.yml](#githubdependabotyml)
-    1. ISSUE_TEMPLATE/
-        1. [bug_report.md](#githubissue_templatebug_reportmd)
-        1. [documentation_request.md](#githubissue_templatedocumentation_requestmd)
-        1. [feature_request.md](#githubissue_templatefeature_requestmd)
     1. [senzing-corporate-contributor-license-agreement.pdf](#githubsenzing-corporate-contributor-license-agreementpdf)
     1. [senzing-individual-contributor-license-agreement.pdf](#githubsenzing-individual-contributor-license-agreementpdf)
     1. workflows/
-        1. [add-dependabot-request-to-project](githubworkflowsadd-dependabot-request-to-project)
-        1. [add-issue-to-project](#githubworkflowsadd-issue-to-project)
-        1. [add-triage-label.yaml](#githubworkflowsadd-triage-labelyaml)
-        1. [identify-customer.yaml](#githubworkflowsidentify-customeryaml)
 1. [LICENSE](#license)
-1. [PULL_REQUEST_TEMPLATE.md](#pull_request_templatemd)
 1. [README.md](#readmemd)
 
 ## README.md
@@ -38,9 +29,9 @@ Although the file you are reading is a `README.md` file, this isn't the style of
 Depending upon the type of repository, the following `README.md` templates may be more appropriate:
 
 1. [README.md](.github/README_TEMPLATE/demonstration/README.md) template for demonstrations. Examples:
-    1. [template-docker/README.md](https://github.com/Senzing/template-docker/blob/main/README.md)
-    1. [template-go/README.md](https://github.com/Senzing/template-go/blob/main/README.md)
-    1. [template-python/README.md](https://github.com/Senzing/template-python/blob/main/README.md)
+    1. [template-docker/README.md](https://github.com/senzing-factory/template-docker/blob/main/README.md)
+    1. [template-go/README.md](https://github.com/senzing-factory/template-go/blob/main/README.md)
+    1. [template-python/README.md](https://github.com/senzing-factory/template-python/blob/main/README.md)
 
 ## CHANGELOG.md
 
@@ -129,39 +120,6 @@ The
 [dependabot.yml](.github/dependabot.yml) file is configuration for
 [GitHub's dependabot](https://docs.github.com/en/code-security/dependabot).
 
-### .github/ISSUE_TEMPLATE
-
-#### .github/ISSUE_TEMPLATE/bug_report.md
-
-A template presented to the Contributor when creating an issue that reports a bug.
-
-The [bug_report.md](.github/ISSUE_TEMPLATE/bug_report.md) file in this repository
-is an example that can be modified.
-
-##### How to create .github/ISSUE_TEMPLATE/bug_report.md
-
-1. Option #1: Using GitHub's "Wizard"
-    1. [github.com](https://github.com/) > (choose repository) > Insights > Community > Issue templates > "Add" button > Add template: Bug report
-
-#### .github/ISSUE_TEMPLATE/documentation_request.md
-
-A template presented to the Contributor when creating an issue that requests change to the documentation.
-
-The [documentation_request.md](.github/ISSUE_TEMPLATE/documentation_request.md) file in this repository
-is an example that can be modified.
-
-#### .github/ISSUE_TEMPLATE/feature_request.md
-
-A template presented to the Contributor when creating an issue that requests a feature.
-
-The [feature_request.md](.github/ISSUE_TEMPLATE/feature_request.md) file in this repository
-is an example that can be modified.
-
-##### How to create .github/ISSUE_TEMPLATE/feature_request.md
-
-1. Option #1: Using GitHub's "Wizard"
-    1. [github.com](https://github.com/) > (choose repository) > Insights > Community > Issue templates > "Add" button > Add template: Feature request
-
 ### .github/senzing-corporate-contributor-license-agreement.pdf
 
 The Senzing, INC. Software Grant and Corporate Contributor License Agreement (CCLA),
@@ -193,55 +151,6 @@ must also be submitted and accepted.
 
 ### .github/workflows
 
-#### .github/workflows/add-dependabot-request-to-project
-
-There are a number of
-[add-dependabot-request-to-project-*](.github/workflows/)
-files.
-These
-[GitHub Actions](https://docs.github.com/en/actions)
-inspect Dependabot Pull Request to determine which
-project board they should be assigned to.
-
-Each variant corresponds to a different Projects board.
-
-- **t-ast:** <https://github.com/orgs/Senzing/projects/6>
-- **t-comm:** <https://github.com/orgs/Senzing/projects/2>
-- **t-g2-python:** <https://github.com/orgs/Senzing/projects/8>
-- **t-gdev:** <https://github.com/orgs/Senzing/projects/9>
-
-#### .github/workflows/add-issue-to-project
-
-There are a number of
-[add-issue-to-project-*](.github/workflows/)
-files.
-These
-[GitHub Actions](https://docs.github.com/en/actions)
-inspect issues to determine which project board they should be assigned to.
-
-Each variant corresponds to a different Projects board.
-
-- **t-ast:** <https://github.com/orgs/Senzing/projects/6>
-- **t-comm:** <https://github.com/orgs/Senzing/projects/2>
-- **t-g2-python:** <https://github.com/orgs/Senzing/projects/8>
-- **t-gdev:** <https://github.com/orgs/Senzing/projects/9>
-
-#### .github/workflows/add-triage-label.yaml
-
-The
-[add-triage-label.yaml](.github/workflows/add-triage-label.yaml)
-file is a
-[GitHub Action](https://docs.github.com/en/actions)
-that adds a `triage` label to every new issue.
-
-#### .github/workflows/identify-customer.yaml
-
-The
-[identify-customer.yaml](.github/workflows/identify-customer.yaml)
-file is a
-[GitHub Action](https://docs.github.com/en/actions)
-that determines if the issue created by a GitHub user that is not a member of Senzing.
-
 ## LICENSE
 
 The `LICENSE` file describes the terms and conditions under which the code in the repository can be used.
@@ -259,21 +168,3 @@ The [LICENSE](LICENSE) file in this repository is based on
     1. When [creating a new repository](https://github.com/new), in the "Add a license:" drop-down, choose "Apache License 2.0"
 1. Option #2: Manual file creation
     1. See GitHub's [Adding a license to a repository](https://help.github.com/articles/adding-a-license-to-a-repository/)
-
-## PULL_REQUEST_TEMPLATE.md
-
-The `PULL_REQUEST_TEMPLATE.md` file asks a pull requester for information about the pull request.
-
-> When you add a pull request template to your repository, project contributors will automatically see the template's contents in the pull request body.
->
-> -- <cite>GitHub's [Creating a pull request template for your repository](https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/)</cite>
-
-The [PULL_REQUEST_TEMPLATE.md](PULL_REQUEST_TEMPLATE.md) file in this repository
-is an example that can be modified.
-
-### How to create PULL_REQUEST_TEMPLATE.md
-
-1. Option #1: Using GitHub's "Wizard"
-    1. [github.com](https://github.com/) > (choose repository) > Insights > Community > Pull request template > "Add" button
-1. Option #2: Manual file creation
-    1. See GitHub's [Creating a pull request template for your repository](https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/)
