@@ -3,8 +3,7 @@
 If you are beginning your journey with [Senzing],
 please start with [Senzing Quick Start guides].
 
-You are in the [Senzing Garage]
-where projects are "tinkered" on.
+You are in the [Senzing Garage] where projects are "tinkered" on.
 Although this GitHub repository may help you understand an approach to using Senzing,
 it's not considered to be "production ready" and is not considered to be part of the Senzing product.
 Heck, it may not even be appropriate for your application of Senzing!
@@ -157,8 +156,7 @@ The `LICENSE` file describes the terms and conditions under which the code in th
 The recommended license file is "[Apache License 2.0]".
 A comparison of licenses can be found at [choosealicense.com].
 
-The [LICENSE](LICENSE) file in this repository is based on
-"[Apache License 2.0]".
+The [LICENSE file] in this repository is based on "[Apache License 2.0]".
 
 ### How to create LICENSE
 
@@ -167,47 +165,72 @@ The [LICENSE](LICENSE) file in this repository is based on
 1. Option #2: Manual file creation
     1. See GitHub's [Adding a license to a repository]
 
+[.github/CODEOWNERS]: .github/CODEOWNERS
+[API documentation]: https://pkg.go.dev/github.com/senzing-garage/template-go
 [Adding a code of conduct to your project]: https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/
 [Adding a license to a repository]: https://help.github.com/articles/adding-a-license-to-a-repository/
 [Apache License 2.0]: https://www.apache.org/licenses/LICENSE-2.0.html
 [Apache Software Foundation Code of Conduct]: https://www.apache.org/foundation/policies/conduct.html
-[CHANGELOG]: CHANGELOG.md
 [CHANGELOG.md]: #changelogmd
-[choosealicense.com]: https://choosealicense.com/licenses/
-[code owners]: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+[CHANGELOG]: CHANGELOG.md
 [CODEOWNERS]: #githubcodeowners
-[dependabot.yml]: .github/dependabot.yml
-[.github/CODEOWNERS]: .github/CODEOWNERS
-[CODE_OF_CONDUCT]: CODE_OF_CONDUCT.md
 [CODE_OF_CONDUCT.md]: #code_of_conductmd
-[Community]: https://github.com/senzing-factory/template-repository/community
-[CONTRIBUTING]: CONTRIBUTING.md
+[CODE_OF_CONDUCT]: CODE_OF_CONDUCT.md
 [CONTRIBUTING.md]: #contributingmd
+[CONTRIBUTING]: CONTRIBUTING.md
+[Community]: https://github.com/senzing-factory/template-repository/community
 [Contributor Covenant]: https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
-[creating a new repository]: https://github.com/new
-[dependabot.yml]: #githubdependabotyml
-[docs]: docs
-[docs/]: #docs
-[github.com]: https://github.com/
-[github.com/orgs/Senzing/teams]: https://github.com/orgs/Senzing/teams
-[GitHub's dependabot]: https://docs.github.com/en/code-security/dependabot
+[Development]: docs/development.md
+[DockerHub]: https://hub.docker.com/r/senzing/template-go
+[Errors]: docs/errors.md
+[Examples]: docs/examples.md
 [GitHub Pages]: https://pages.github.com/
-[hub.senzing.com]: https://hub.senzing.com/
-[hub.senzing.com/sdk-components-ng]: https://hub.senzing.com/sdk-components-ng/
+[GitHub's dependabot]: https://docs.github.com/en/code-security/dependabot
+[Go Package library]: https://pkg.go.dev
+[Go Reference Badge]: https://pkg.go.dev/badge/github.com/senzing-garage/template-go.svg
+[Go Report Card Badge]: https://goreportcard.com/badge/github.com/senzing-garage/template-go
+[Go Report Card]: https://goreportcard.com/report/github.com/senzing-garage/template-go
 [Keep a Changelog]: https://keepachangelog.com/en/1.0.0/
 [LICENSE]: #license
-[markdownlint]: https://dlaa.me/markdownlint/
+[LICENSE file]: LICENSE
+[License Badge]: https://img.shields.io/badge/License-Apache2-brightgreen.svg
+[License]: https://github.com/senzing-garage/template-go/blob/main/LICENSE
 [Open Source Guide]: https://opensource.guide/code-of-conduct/
+[Package reference]: https://pkg.go.dev/github.com/senzing-garage/template-go
 [README.md]: #readmemd
 [Semantic Versioning]: https://semver.org/spec/v2.0.0.html
-[Senzing]: https://senzing.com/
-[senzing-corporate-contributor-license-agreement]: #githubsenzing-corporate-contributor-license-agreementpdf
-[senzing-corporate-contributor-license-agreement.pdf]: .github/senzing-corporate-contributor-license-agreement.pdf
 [Senzing Garage]: https://github.com/senzing-garage
-[senzing-individual-contributor-license-agreement]: #githubsenzing-individual-contributor-license-agreementpdf
-[senzing-individual-contributor-license-agreement.pdf]: .github/senzing-individual-contributor-license-agreement.pdf
+[Senzing Garage]: https://github.com/senzing-garage
 [Senzing Quick Start guides]: https://docs.senzing.com/quickstart/
+[Senzing Quick Start guides]: https://docs.senzing.com/quickstart/
+[Senzing]: https://senzing.com/
+[Senzing]: https://senzing.com/
 [Setting guidelines for repository contributors]: https://help.github.com/articles/setting-guidelines-for-repository-contributors/
+[choosealicense.com]: https://choosealicense.com/licenses/
+[code owners]: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+[creating a new repository]: https://github.com/new
+[dependabot.yml]: #githubdependabotyml
+[dependabot.yml]: .github/dependabot.yml
+[docs/]: #docs
+[docs]: docs
+[github.com/orgs/Senzing/teams]: https://github.com/orgs/Senzing/teams
+[github.com]: https://github.com/
+[go-test-darwin.yaml Badge]: https://github.com/senzing-garage/template-go/actions/workflows/go-test-darwin.yaml/badge.svg
+[go-test-darwin.yaml]: https://github.com/senzing-garage/template-go/actions/workflows/go-test-darwin.yaml
+[go-test-linux.yaml Badge]: https://github.com/senzing-garage/template-go/actions/workflows/go-test-linux.yaml/badge.svg
+[go-test-linux.yaml]: https://github.com/senzing-garage/template-go/actions/workflows/go-test-linux.yaml
+[go-test-windows.yaml Badge]: https://github.com/senzing-garage/template-go/actions/workflows/go-test-windows.yaml/badge.svg
+[go-test-windows.yaml]: https://github.com/senzing-garage/template-go/actions/workflows/go-test-windows.yaml
+[golangci-lint.yaml Badge]: https://github.com/senzing-garage/template-go/actions/workflows/golangci-lint.yaml/badge.svg
+[golangci-lint.yaml]: https://github.com/senzing-garage/template-go/actions/workflows/golangci-lint.yaml
+[hub.senzing.com/sdk-components-ng]: https://hub.senzing.com/sdk-components-ng/
+[hub.senzing.com]: https://hub.senzing.com/
+[main.go]: main.go
+[markdownlint]: https://dlaa.me/markdownlint/
+[senzing-corporate-contributor-license-agreement.pdf]: .github/senzing-corporate-contributor-license-agreement.pdf
+[senzing-corporate-contributor-license-agreement]: #githubsenzing-corporate-contributor-license-agreementpdf
+[senzing-individual-contributor-license-agreement.pdf]: .github/senzing-individual-contributor-license-agreement.pdf
+[senzing-individual-contributor-license-agreement]: #githubsenzing-individual-contributor-license-agreementpdf
 [template-docker/README.md]: https://github.com/senzing-garage/template-docker/blob/main/README.md
 [template-go/README.md]: https://github.com/senzing-garage/template-go/blob/main/README.md
 [template-python/README.md]: https://github.com/senzing-garage/template-python/blob/main/README.md
