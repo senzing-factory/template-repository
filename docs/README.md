@@ -1,5 +1,8 @@
 # template-repository
 
-Placeholder for [GitHub pages](https://pages.github.com/).
+Placeholder for [GitHub pages].
 
-See [https://hub.senzing.com/template-repository](https://hub.senzing.com/template-repository).
+See [GitHub page].
+
+[GitHub page]: https://garage.senzing.com/template-repository
+[GitHub pages]: https://pages.github.com/
