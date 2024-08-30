@@ -37,6 +37,7 @@ Although the file you are reading is a `README.md` file, this isn't the style of
 Depending upon the type of repository, the following `README.md` templates may be more appropriate:
 
 Examples:
+
   1. [template-docker/README.md]
   1. [template-go/README.md]
   1. [template-python/README.md]
@@ -166,71 +167,46 @@ The [LICENSE file] in this repository is based on "[Apache License 2.0]".
     1. See GitHub's [Adding a license to a repository]
 
 [.github/CODEOWNERS]: .github/CODEOWNERS
-[API documentation]: https://pkg.go.dev/github.com/senzing-garage/template-go
 [Adding a code of conduct to your project]: https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/
 [Adding a license to a repository]: https://help.github.com/articles/adding-a-license-to-a-repository/
 [Apache License 2.0]: https://www.apache.org/licenses/LICENSE-2.0.html
 [Apache Software Foundation Code of Conduct]: https://www.apache.org/foundation/policies/conduct.html
 [CHANGELOG.md]: #changelogmd
 [CHANGELOG]: CHANGELOG.md
-[CODEOWNERS]: #githubcodeowners
+[choosealicense.com]: https://choosealicense.com/licenses/
+[code owners]: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
 [CODE_OF_CONDUCT.md]: #code_of_conductmd
 [CODE_OF_CONDUCT]: CODE_OF_CONDUCT.md
+[CODEOWNERS]: #githubcodeowners
+[Community]: https://github.com/senzing-factory/template-repository/community
 [CONTRIBUTING.md]: #contributingmd
 [CONTRIBUTING]: CONTRIBUTING.md
-[Community]: https://github.com/senzing-factory/template-repository/community
 [Contributor Covenant]: https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
-[Development]: docs/development.md
-[DockerHub]: https://hub.docker.com/r/senzing/template-go
-[Errors]: docs/errors.md
-[Examples]: docs/examples.md
+[creating a new repository]: https://github.com/new
+[dependabot.yml]: #githubdependabotyml
+[docs]: docs
+[docs/]: #docs
 [GitHub Pages]: https://pages.github.com/
+[github.com]: https://github.com/
+[github.com/orgs/Senzing/teams]: https://github.com/orgs/Senzing/teams
 [GitHub's dependabot]: https://docs.github.com/en/code-security/dependabot
-[Go Package library]: https://pkg.go.dev
-[Go Reference Badge]: https://pkg.go.dev/badge/github.com/senzing-garage/template-go.svg
-[Go Report Card Badge]: https://goreportcard.com/badge/github.com/senzing-garage/template-go
-[Go Report Card]: https://goreportcard.com/report/github.com/senzing-garage/template-go
+[hub.senzing.com]: https://hub.senzing.com/
+[hub.senzing.com/sdk-components-ng]: https://hub.senzing.com/sdk-components-ng/
 [Keep a Changelog]: https://keepachangelog.com/en/1.0.0/
-[LICENSE]: #license
 [LICENSE file]: LICENSE
-[License Badge]: https://img.shields.io/badge/License-Apache2-brightgreen.svg
-[License]: https://github.com/senzing-garage/template-go/blob/main/LICENSE
+[LICENSE]: #license
+[markdownlint]: https://dlaa.me/markdownlint/
 [Open Source Guide]: https://opensource.guide/code-of-conduct/
-[Package reference]: https://pkg.go.dev/github.com/senzing-garage/template-go
 [README.md]: #readmemd
 [Semantic Versioning]: https://semver.org/spec/v2.0.0.html
 [Senzing Garage]: https://github.com/senzing-garage
-[Senzing Garage]: https://github.com/senzing-garage
 [Senzing Quick Start guides]: https://docs.senzing.com/quickstart/
-[Senzing Quick Start guides]: https://docs.senzing.com/quickstart/
-[Senzing]: https://senzing.com/
-[Senzing]: https://senzing.com/
-[Setting guidelines for repository contributors]: https://help.github.com/articles/setting-guidelines-for-repository-contributors/
-[choosealicense.com]: https://choosealicense.com/licenses/
-[code owners]: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
-[creating a new repository]: https://github.com/new
-[dependabot.yml]: #githubdependabotyml
-[dependabot.yml]: .github/dependabot.yml
-[docs/]: #docs
-[docs]: docs
-[github.com/orgs/Senzing/teams]: https://github.com/orgs/Senzing/teams
-[github.com]: https://github.com/
-[go-test-darwin.yaml Badge]: https://github.com/senzing-garage/template-go/actions/workflows/go-test-darwin.yaml/badge.svg
-[go-test-darwin.yaml]: https://github.com/senzing-garage/template-go/actions/workflows/go-test-darwin.yaml
-[go-test-linux.yaml Badge]: https://github.com/senzing-garage/template-go/actions/workflows/go-test-linux.yaml/badge.svg
-[go-test-linux.yaml]: https://github.com/senzing-garage/template-go/actions/workflows/go-test-linux.yaml
-[go-test-windows.yaml Badge]: https://github.com/senzing-garage/template-go/actions/workflows/go-test-windows.yaml/badge.svg
-[go-test-windows.yaml]: https://github.com/senzing-garage/template-go/actions/workflows/go-test-windows.yaml
-[golangci-lint.yaml Badge]: https://github.com/senzing-garage/template-go/actions/workflows/golangci-lint.yaml/badge.svg
-[golangci-lint.yaml]: https://github.com/senzing-garage/template-go/actions/workflows/golangci-lint.yaml
-[hub.senzing.com/sdk-components-ng]: https://hub.senzing.com/sdk-components-ng/
-[hub.senzing.com]: https://hub.senzing.com/
-[main.go]: main.go
-[markdownlint]: https://dlaa.me/markdownlint/
 [senzing-corporate-contributor-license-agreement.pdf]: .github/senzing-corporate-contributor-license-agreement.pdf
 [senzing-corporate-contributor-license-agreement]: #githubsenzing-corporate-contributor-license-agreementpdf
 [senzing-individual-contributor-license-agreement.pdf]: .github/senzing-individual-contributor-license-agreement.pdf
 [senzing-individual-contributor-license-agreement]: #githubsenzing-individual-contributor-license-agreementpdf
+[Senzing]: https://senzing.com/
+[Setting guidelines for repository contributors]: https://help.github.com/articles/setting-guidelines-for-repository-contributors/
 [template-docker/README.md]: https://github.com/senzing-garage/template-docker/blob/main/README.md
 [template-go/README.md]: https://github.com/senzing-garage/template-go/blob/main/README.md
 [template-python/README.md]: https://github.com/senzing-garage/template-python/blob/main/README.md
